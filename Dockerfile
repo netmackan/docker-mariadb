@@ -1,7 +1,7 @@
 #MariaDB (https://mariadb.org/)
 
-FROM phusion/baseimage:0.9.10
-MAINTAINER Ryan Seto <ryanseto@yak.net>
+FROM netmackan/baseimage:0.9.11
+MAINTAINER Markus <markus@markuspage.com>
 
 # Ensure UTF-8
 RUN locale-gen en_US.UTF-8
